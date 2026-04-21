@@ -3,71 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Active Barberia 17 | Oshakati & Ongwediva</title>
+    <title>The Active Barberia | Premium Cuts Oshakati & Ongwediva</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     <style>
-        body {font-family: Arial, sans-serif; margin:0; padding:0; background:#111; color:#fff; line-height:1.6;}
-        .hero {text-align:center; padding:80px 20px; background:#1a1a1a;}
-        .hero h1 {font-size:2.5rem; margin:0; color:#FFD700;}
-        .hero p {font-size:1.2rem; color:#ccc;}
-        .btn {background:#25D366; color:#fff; padding:15px 30px; text-decoration:none; border-radius:8px; font-weight:bold; display:inline-block; margin-top:20px;}
-        .btn:hover {background:#1fa855;}
-        .section {padding:40px 20px; max-width:900px; margin:auto;}
-        .branches {display:flex; gap:20px; flex-wrap:wrap;}
-        .branch {background:#222; padding:20px; border-radius:8px; flex:1; min-width:250px;}
-        h2 {color:#FFD700; border-bottom:2px solid #FFD700; padding-bottom:10px;}
-        table {width:100%; border-collapse:collapse; margin-top:20px;}
-        td {padding:12px 0; border-bottom:1px solid #333;}
-        td:last-child {text-align:right; font-weight:bold; color:#FFD700;}
-        .footer {text-align:center; padding:20px; background:#1a1a1a; color:#666; font-size:0.9rem;}
+        * {margin: 0; padding: 0; box-sizing: border-box;}
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: #ffffff;
+            color: #0a2540;
+            line-height: 1.6;
+        }
+        /* HERO SECTION */
+        .hero {
+            background: linear-gradient(135deg, #0a2540 0%, #1e5aa8 100%);
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+            letter-spacing: -1px;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            margin-bottom: 30px;
+        }
+        .btn {
+            display: inline-block;
+            background: #ffffff;
+            color: #0a2540;
+            padding: 15px 35px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+        /* SERVICES SECTION - PLACEHOLDER */
+        .services {
+            padding: 80px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        .services h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            color: #0a2540;
+            margin-bottom: 40px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        th, td {
+            padding: 18px;
+            text-align: left;
+            border-bottom: 1px solid #e8f1ff;
+        }
+        th {
+            background: #1e5aa8;
+            color: white;
+            font-weight: 600;
+        }
+        tr:hover {background: #f8fbff;}
+        td:last-child {font-weight: 600; color: #1e5aa8;}
+        .note {text-align: center; margin-top: 20px; color: #5a6c80;}
     </style>
 </head>
 <body>
-    <div class="hero">
-        <h1>The Active Barberia 17</h1>
-        <p>Northern Namibia’s Cleanest Cuts | Oshakati & Ongwediva</p>
-        <a class="btn" href="https://wa.me/264815576276?text=Hi%20The%20Active%20Barberia%2017%2C%20I%20want%20to%20book%20a%20cut">Book on WhatsApp</a>
-    </div>
+    <!-- HERO -->
+    <section class="hero">
+        <!-- LOGO GOES HERE - SEND IT -->
+        <h1>THE ACTIVE BARBERIA</h1>
+        <p>Luxury Cuts • Modern Style • Oshakati & Ongwediva</p>
+        <a href="https://wa.me/264815576276" class="btn">Book on WhatsApp</a>
+    </section>
 
-    <div class="section">
-        <h2>Services & Prices</h2>
+    <!-- SERVICES -->
+    <section class="services">
+        <h2>Our Services</h2>
         <table>
-    <tr><td>Adults Haircut - Normal</td><td>N$80</td></tr>
-    <tr><td>Adults Haircut - With Gold Black</td><td>N$120</td></tr>
-    <tr><td>Kids Haircut - Normal</td><td>N$50</td></tr>
-    <tr><td>Kids Haircut - With Gold Black</td><td>N$70</td></tr>
-</table>
-<p><em>Walk-ins welcome • Open Daily 8AM-10PM</em></p>S
-        <p><em>Update prices when you send me the price list</em></p>
-    </div>
-
-    <div class="section">
-        <h2>Our Branches</h2>
-        <div class="branches">
-            <div class="branch">
-                <h3>Oshakati Branch</h3>
-                <p>Opposite Okatana Service Station</p>
-            </div>
-            <div class="branch">
-                <h3>Ongwediva Branch</h3>
-                <p>Opposite HP, near Elago Stop</p>
-            </div>
-        </div>
-    </div>
-
-    <div class="section">
-        <h2>Opening Hours</h2>
-        <p><strong>Daily: 8:00 AM - 10:00 PM</strong></p>
-        <p>No appointment needed, walk-ins welcome</p>
-    </div>
-
-    <div class="section">
-        <h2>Contact & Book</h2>
-        <p><strong>WhatsApp/Call:</strong> 081 557 6276</p>
-        <a class="btn" href="https://wa.me/264815576276?text=Hi%2C%20which%20branch%20has%20a%20slot%20today%3F">Message Us Now</a>
-    </div>
-
-    <div class="footer">
-        <p>© 2026 The Active Barberia 17 | Oshakati & Ongwediva</p>
-    </div>
+            <tr><th>Service</th><th>Price</th></tr>
+            <tr><td>Adults Haircut - Normal</td><td>N$80</td></tr>
+            <tr><td>Adults Haircut - With Gold Black</td><td>N$120</td></tr>
+            <tr><td>Kids Haircut - Normal</td><td>N$50</td></tr>
+            <tr><td>Kids Haircut - With Gold Black</td><td>N$70</td></tr>
+            <!-- SEND ME THE REST OF THE SERVICES + PRICES -->
+        </table>
+        <p class="note">Walk-ins welcome • Open Daily 8AM-10PM</p>
+        <!-- GOLD BLACK DESCRIPTION GOES HERE -->
+    </section>
 </body>
 </html>
